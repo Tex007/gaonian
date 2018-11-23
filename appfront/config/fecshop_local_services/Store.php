@@ -27,13 +27,13 @@
                 'thirdLogin' => [
                     // facebook账号登录
                     'facebook' => [       //fb api配置 ，fb可以一个app设置pc和手机web两个域名
-                        'facebook_app_id'     => '108618299786621',
-                        'facebook_app_secret' => '420b56da4f4664a4d1065a1d31e5ec73',
+                        'facebook_app_id'     => '2335085143188149',
+                        'facebook_app_secret' => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                     // google账号登录
                     'google' => [       //谷歌api visit https://code.google.com/apis/console to generate your google api
-                        'CLIENT_ID'      => '380372364773-qdj1seag9bh2n0pgrhcv2r5uoc58ltp3.apps.googleusercontent.com',
-                        'CLIENT_SECRET'  => 'ei8RaoCDoAlIeh1nHYm0rrwO',
+                        'CLIENT_ID'      => '77329161851-tendc0an51cpke6biers2mi2qfm5ttrl.apps.googleusercontent.com',
+                        'CLIENT_SECRET'  => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                 ],
                 // 用于sitemap生成中域名。
@@ -60,13 +60,13 @@
                 'thirdLogin' => [
                     // facebook账号登录
                     'facebook' => [       //fb api配置 ，fb可以一个app设置pc和手机web两个域名
-                        'facebook_app_id'     => '108618299786621',
-                        'facebook_app_secret' => '420b56da4f4664a4d1065a1d31e5ec73',
+                        'facebook_app_id'     => '2335085143188149',
+                        'facebook_app_secret' => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                     // google账号登录
                     'google' => [       //谷歌api visit https://code.google.com/apis/console to generate your google api
-                        'CLIENT_ID'      => '380372364773-qdj1seag9bh2n0pgrhcv2r5uoc58ltp3.apps.googleusercontent.com',
-                        'CLIENT_SECRET'  => 'ei8RaoCDoAlIeh1nHYm0rrwO',
+                        'CLIENT_ID'      => '77329161851-tendc0an51cpke6biers2mi2qfm5ttrl.apps.googleusercontent.com',
+                        'CLIENT_SECRET'  => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                 ],
                 'sitemapDir' => '@appfront/web/fr/sitemap.xml',
@@ -88,13 +88,13 @@
                 'thirdLogin' => [
                     // facebook账号登录
                     'facebook' => [       //fb api配置 ，fb可以一个app设置pc和手机web两个域名
-                        'facebook_app_id'     => '108618299786621',
-                        'facebook_app_secret' => '420b56da4f4664a4d1065a1d31e5ec73',
+                        'facebook_app_id'     => '2335085143188149',
+                        'facebook_app_secret' => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                     // google账号登录
                     'google' => [       //谷歌api visit https://code.google.com/apis/console to generate your google api
-                        'CLIENT_ID'      => '380372364773-qdj1seag9bh2n0pgrhcv2r5uoc58ltp3.apps.googleusercontent.com',
-                        'CLIENT_SECRET'  => 'ei8RaoCDoAlIeh1nHYm0rrwO',
+                        'CLIENT_ID'      => '77329161851-tendc0an51cpke6biers2mi2qfm5ttrl.apps.googleusercontent.com',
+                        'CLIENT_SECRET'  => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                 ],
                 'sitemapDir' => '@appfront/web/sitemap_es.xml',
@@ -116,13 +116,13 @@
                 'thirdLogin' => [
                     // facebook账号登录
                     'facebook' => [       //fb api配置 ，fb可以一个app设置pc和手机web两个域名
-                        'facebook_app_id'     => '108618299786621',
-                        'facebook_app_secret' => '420b56da4f4664a4d1065a1d31e5ec73',
+                        'facebook_app_id'     => '2335085143188149',
+                        'facebook_app_secret' => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                     // google账号登录
                     'google' => [       //谷歌api visit https://code.google.com/apis/console to generate your google api
-                        'CLIENT_ID'      => '380372364773-qdj1seag9bh2n0pgrhcv2r5uoc58ltp3.apps.googleusercontent.com',
-                        'CLIENT_SECRET'  => 'ei8RaoCDoAlIeh1nHYm0rrwO',
+                        'CLIENT_ID'      => '77329161851-tendc0an51cpke6biers2mi2qfm5ttrl.apps.googleusercontent.com',
+                        'CLIENT_SECRET'  => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                 ],
                 'sitemapDir' => '@appfront/web/cn/sitemap.xml',
@@ -146,13 +146,13 @@
                 'thirdLogin' => [
                     // facebook账号登录
                     'facebook' => [       //fb api配置 ，fb可以一个app设置pc和手机web两个域名
-                        'facebook_app_id'     => '108618299786621',
-                        'facebook_app_secret' => '420b56da4f4664a4d1065a1d31e5ec73',
+                        'facebook_app_id'     => '2335085143188149',
+                        'facebook_app_secret' => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                     // google账号登录
                     'google' => [       //谷歌api visit https://code.google.com/apis/console to generate your google api
-                        'CLIENT_ID'      => '380372364773-qdj1seag9bh2n0pgrhcv2r5uoc58ltp3.apps.googleusercontent.com',
-                        'CLIENT_SECRET'  => 'ei8RaoCDoAlIeh1nHYm0rrwO',
+                        'CLIENT_ID'      => '77329161851-tendc0an51cpke6biers2mi2qfm5ttrl.apps.googleusercontent.com',
+                        'CLIENT_SECRET'  => '3a59ea3d2a80c35160ddc63a7ec27111',
                     ],
                 ],
                 'sitemapDir' => '@appfront/web/it/sitemap.xml',
