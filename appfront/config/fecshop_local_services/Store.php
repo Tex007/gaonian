@@ -4,7 +4,7 @@
         'class'  => 'fecshop\services\Store',
         'stores' => [
             // store key：域名去掉http部分，作为key，这个必须这样定义。
-            'fecshop.appfront.fancyecommerce.com' => [
+            'www.awesomelight.de' => [
                 'language'         => 'en_US',        // 语言简码需要在@common/config/fecshop_local_services/FecshopLang.php 中定义。
                 'languageName'     => 'English',    // 语言简码对应的文字名称，将会出现在语言切换列表中显示。
                 'localThemeDir'    => '@appfront/theme/terry/theme01', // 设置当前store对应的模板路径。关于多模板的方面的知识，您可以参看fecshop多模板的知识。
@@ -19,7 +19,7 @@
                 'mobile'        => [
                     'enable'            => true,
                     'condition'         => ['phone', 'tablet'], // phone 代表手机，tablet代表平板，当都填写，代表手机和平板都会进行跳转
-                    'redirectDomain'    => 'demo.fancyecommerce.com',    // 如果是移动设备访问进行域名跳转，这里填写的值为store key
+                    'redirectDomain'    => 'dm.awesomelight.de',    // 如果是移动设备访问进行域名跳转，这里填写的值为store key
                     'https'             => false,  // 手机端url是否支持https,如果支持，设置https为true，如果不支持，设置为false
                     'type'              => 'appserver',  //  填写值选择：[apphtml5, appserver]，如果是 apphtml5 ， 则表示跳转到html5入口，如果是appserver，则表示跳转到vue这种appserver对应的入口
                 ],
