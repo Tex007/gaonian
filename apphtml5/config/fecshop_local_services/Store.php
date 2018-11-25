@@ -4,7 +4,7 @@
         'class'  => 'fecshop\services\Store',
         'stores' => [
             // store key：域名去掉http部分，作为key，这个必须这样定义。
-            'fecshop.apphtml5.fancyecommerce.com' => [
+            'fecshop.apphtml5.awesomelight.de' => [
                 'language'         => 'en_US',        // 语言简码需要在@common/config/fecshop_local_services/FecshopLang.php 中定义。
                 'languageName'     => 'English',    // 语言简码对应的文字名称，将会出现在语言切换列表中显示。
                 'localThemeDir'    => '@apphtml5/theme/terry/theme01', // 设置当前store对应的模板路径。关于多模板的方面的知识，您可以参看fecshop多模板的知识。
@@ -29,7 +29,7 @@
                 // sitemap的路径。
                 'sitemapDir' => '@apphtml5/web/sitemap.xml',
             ],
-            'fecshop.apphtml5.fancyecommerce.com/fr' => [
+            'fecshop.apphtml5.awesomelight.de/fr' => [
                 'language'         => 'fr_FR',
                 'languageName'     => 'Français',
                 'localThemeDir'    => '@apphtml5/theme/terry/theme01',
@@ -38,7 +38,7 @@
                 'mobile'           => [
                     'enable'               => false,
                     'condition'            => ['phone'], // phone 代表手机，tablet代表平板。
-                    'redirectDomain'       => 'fecshop.apphtml5.fancyecommerce.com/fr', // 跳转后的url。
+                    'redirectDomain'       => 'fecshop.apphtml5.awesomelight.de/fr', // 跳转后的url。
                 ],
                 // 第三方账号登录配置
                 'thirdLogin' => [
@@ -55,7 +55,7 @@
                 ],
                 'sitemapDir' => '@apphtml5/web/fr/sitemap.xml',
             ],
-            'fecshop.apphtml5.es.fancyecommerce.com' => [
+            'fecshop.apphtml5.es.awesomelight.de' => [
                 'language'         => 'es_ES',
                 'languageName'     => 'Español',
                 'localThemeDir'    => '@apphtml5/theme/terry/theme01',
@@ -64,7 +64,7 @@
                 'mobile'           => [
                     'enable'            => false,
                     'condition'         => ['tablet'],
-                    'redirectDomain'    => 'fecshop.apphtml5.es.fancyecommerce.com',
+                    'redirectDomain'    => 'fecshop.apphtml5.es.awesomelight.de',
                 ],
                 // 第三方账号登录配置
                 'thirdLogin' => [
@@ -81,7 +81,7 @@
                 ],
                 'sitemapDir' => '@apphtml5/web/sitemap_es.xml',
             ],
-            'fecshop.apphtml5.fancyecommerce.com/cn' => [
+            'fecshop.apphtml5.awesomelight.de/cn' => [
                 'language'         => 'zh_CN',
                 'languageName'     => '中文',
                 'localThemeDir'    => '@apphtml5/theme/terry/theme01',
@@ -90,7 +90,7 @@
                 'mobile'           => [
                     'enable'            => false,
                     'condition'         => ['phone', 'tablet'],
-                    'redirectDomain'    => 'fecshop.apphtml5.fancyecommerce.com/cn',
+                    'redirectDomain'    => 'fecshop.apphtml5.awesomelight.de/cn',
                 ],
                 // 第三方账号登录配置
                 'thirdLogin' => [

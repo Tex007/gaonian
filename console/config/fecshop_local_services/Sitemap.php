@@ -19,25 +19,25 @@ return [
             // appfront入口
             'appfront' => [
                 // store的key(域名)，
-                'fecshop.appfront.fancyecommerce.com' => [
+                'www.awesomelight.de' => [
                     'https'            => true,  // false代表使用http，true代表使用https
                     'sitemapDir'       => '@appfront/web/sitemap.xml', // sitemap存放的地址
                     'showScriptName'   => false,    // 是否显示index.php ，譬如http://www.fecshop.com/index.php/xxxxxx,当nginx没有设置重写，这里需要设置为true,这样url中会存在index.php，否则会404
                                                 // 这个设置对seo来说，设置为false最合适，也就是隐藏 url中index.php ，这种设置需要开启nginx的url重写
                 ],
                 // store的key(域名)
-                'fecshop.appfront.fancyecommerce.com/fr' => [
+                'www.awesomelight.de/fr' => [
                     'https'            => true,  // false代表使用http，true代表使用https
                     'sitemapDir'       => '@appfront/web/fr/sitemap.xml', // sitemap存放的地址
                     'showScriptName'   => false,
                 ],
 
-                'fecshop.appfront.es.fancyecommerce.com' => [
+                'fecshop.appfront.es.awesomelight.de' => [
                     'https'            => true,  // false代表使用http，true代表使用https
                     'sitemapDir'       => '@appfront/web/sitemap_es.xml',
                     'showScriptName'   => false,
                 ],
-                'fecshop.appfront.fancyecommerce.com/cn' => [
+                'www.awesomelight.de/cn' => [
                     'https'            => true,  // false代表使用http，true代表使用https
                     'sitemapDir'       => '@appfront/web/cn/sitemap.xml',
                     'showScriptName'   => false,

@@ -18,14 +18,14 @@ return [
                  * 1. spu_attr 
                  * 1.1 spu和sku的概念：sku是产品的唯一标示，最小库存单位，譬如一款鞋子为一个spu，这款鞋子的不同的颜色和不同的尺码为一个sku，
                  * 1.2 什么是spu属性（spu_attr），当一款鞋子的不同的sku是颜色和尺码的不同，那么颜色和尺码就是这款鞋子的spu属性（spu_attr）。
-                 * 1.2 spu_attr是用来在产品详细页面，将这个spu下面的所有sku串联起来，譬如页面：http://fecshop.appfront.fancyecommerce.com/index.php/raglan-sleeves-letter-printed-crew-neck-sweatshirt-53386451-77774122
+                 * 1.2 spu_attr是用来在产品详细页面，将这个spu下面的所有sku串联起来，譬如页面：http://www.awesomelight.de/index.php/raglan-sleeves-letter-printed-crew-neck-sweatshirt-53386451-77774122
                  * 		访问这款衣服的每一个SKU，都会把其他的sku列出来，点击后，就进去其他sku的页面，您会发现url是变化的，这个是类似于京东的方式。
                  *		注意：	1.2.1 因为组合的复杂性，spu attr最多设置2个属性，不能超过2个，超过两个请使用customer_option的方式。也就是类似于淘宝的方式。
                  * 				1.2.2 这里的属性需要严格按照下面的格式进行配置，如果您想配置自己的spu属性，那么
                  * 2. general_attr（普通属性），可以是各种格式的值，譬如时间格式，email格式，下拉条选择值等。这些属性可以用于分类侧栏属性过滤。
                  * 3. custom_options 这里是用户自定义属性，显示方式方面有点和spu属性类似，spu属性显示的方式是京东的方式，点击每一个选项是url跳转的
                  *    用户自定义类似于淘宝的方式，选择各个颜色尺码，页面是不跳转的，各个颜色尺码有相应的图片，库存，价格，sku等。
-                 *	  您可以查看演示地址：http://fecshop.appfront.fancyecommerce.com/index.php/reindeer-pattern-glitter-christmas-dress-86519596
+                 *	  您可以查看演示地址：http://www.awesomelight.de/index.php/reindeer-pattern-glitter-christmas-dress-86519596
                  * 您可以给产品属性组添加的属性类型就上面几种，在后台编辑产品的时候，选择不同的属性组，就会加载相应的属性出来。
                  */
                 'spu_attr' => [  // spu用来区分sku的属性，譬如下面的属性的不同，对应不同的sku，进而是不同的库存
@@ -225,7 +225,7 @@ return [
                         'dbtype'    => 'String',  //类型
                         'label'     => 'My Color', // 显示的名字
                         'name'      => 'color',      // 在数据库中存在的列名
-                        'showAsImg' => true,  // （在前端展示部分）通过图片的方式展示属性。譬如；http://fecshop.appfront.fancyecommerce.com/index.php/reindeer-pattern-glitter-christmas-dress-86519596，
+                        'showAsImg' => true,  // （在前端展示部分）通过图片的方式展示属性。譬如；http://www.awesomelight.de/index.php/reindeer-pattern-glitter-christmas-dress-86519596，
                                               //		你会发现，该属性对应的显示方式不是值，而是产品的图片。
                         'require' => 1,  // 1代表是必填选项，0代表选填
                         'display' => [
@@ -292,14 +292,14 @@ return [
                  * 1. spu_attr 
                  * 1.1 spu和sku的概念：sku是产品的唯一标示，最小库存单位，譬如一款鞋子为一个spu，这款鞋子的不同的颜色和不同的尺码为一个sku，
                  * 1.2 什么是spu属性（spu_attr），当一款鞋子的不同的sku是颜色和尺码的不同，那么颜色和尺码就是这款鞋子的spu属性（spu_attr）。
-                 * 1.2 spu_attr是用来在产品详细页面，将这个spu下面的所有sku串联起来，譬如页面：http://fecshop.appfront.fancyecommerce.com/index.php/raglan-sleeves-letter-printed-crew-neck-sweatshirt-53386451-77774122
+                 * 1.2 spu_attr是用来在产品详细页面，将这个spu下面的所有sku串联起来，譬如页面：http://www.awesomelight.de/index.php/raglan-sleeves-letter-printed-crew-neck-sweatshirt-53386451-77774122
                  * 		访问这款衣服的每一个SKU，都会把其他的sku列出来，点击后，就进去其他sku的页面，您会发现url是变化的，这个是类似于京东的方式。
                  *		注意：	1.2.1 因为组合的复杂性，spu attr最多设置2个属性，不能超过2个，超过两个请使用customer_option的方式。也就是类似于淘宝的方式。
                  * 				1.2.2 这里的属性需要严格按照下面的格式进行配置，如果您想配置自己的spu属性，那么
                  * 2. general_attr（普通属性），可以是各种格式的值，譬如时间格式，email格式，下拉条选择值等。这些属性可以用于分类侧栏属性过滤。
                  * 3. custom_options 这里是用户自定义属性，显示方式方面有点和spu属性类似，spu属性显示的方式是京东的方式，点击每一个选项是url跳转的
                  *    用户自定义类似于淘宝的方式，选择各个颜色尺码，页面是不跳转的，各个颜色尺码有相应的图片，库存，价格，sku等。
-                 *	  您可以查看演示地址：http://fecshop.appfront.fancyecommerce.com/index.php/reindeer-pattern-glitter-christmas-dress-86519596
+                 *	  您可以查看演示地址：http://www.awesomelight.de/index.php/reindeer-pattern-glitter-christmas-dress-86519596
                  * 您可以给产品属性组添加的属性类型就上面几种，在后台编辑产品的时候，选择不同的属性组，就会加载相应的属性出来。
                  */
                 'spu_attr' => [  // spu用来区分sku的属性，譬如下面的属性的不同，对应不同的sku，进而是不同的库存
@@ -518,7 +518,7 @@ return [
                         'dbtype'    => 'String',  //类型
                         'label'     => 'My Color', // 显示的名字
                         'name'      => 'color',      // 在数据库中存在的列名
-                        'showAsImg' => true,  // （在前端展示部分）通过图片的方式展示属性。譬如；http://fecshop.appfront.fancyecommerce.com/index.php/reindeer-pattern-glitter-christmas-dress-86519596，
+                        'showAsImg' => true,  // （在前端展示部分）通过图片的方式展示属性。譬如；http://www.awesomelight.de/index.php/reindeer-pattern-glitter-christmas-dress-86519596，
                                               //		你会发现，该属性对应的显示方式不是值，而是产品的图片。
                         'require' => 1,  // 1代表是必填选项，0代表选填
                         'display' => [
