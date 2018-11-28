@@ -12,19 +12,19 @@ return [
         'appbase'    => [
             'appfront' => [
                 'basedir'    => '@appimage/appfront',
-                'basedomain' => '//img.appfront.awesomelight.de',
+                'basedomain' => '//img.awesomelight.de',
             ],
             'apphtml5' => [
                 'basedir'    => '@appimage/apphtml5',
-                'basedomain' => '//img.apphtml5.awesomelight.de',
+                'basedomain' => '//img3.awesomelight.de',
             ],
-            //'appadmin' => [
-            //	'basedir' => '@appimage/appadmin',
-            //	'basedomain' => '//img.appadmin.awesomelight.de',
-            //],
+            'appadmin' => [
+            	'basedir' => '@appimage/appadmin',
+            	'basedomain' => '//img4.appadmin.awesomelight.de',
+            ],
             'common' => [
                 'basedir'    => '@appimage/common',
-                'basedomain' => '//img.awesomelight.de',
+                'basedomain' => '//img2.awesomelight.de',
             ],
         ],
     ],
